@@ -490,13 +490,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@isaacs/cliui@npm:^9.0.0":
-  version: 9.0.0
-  resolution: "@isaacs/cliui@npm:9.0.0"
-  checksum: 9b80836cd9fa64099faffc3cb9c0620fd8c1106670f507378c5030daecfe9a29012a67488299e69f3273c6421da2a27ea6a1f1d7600bac01b0cbb5da8eea6277
-  languageName: node
-  linkType: hard
-
 "@jest/schemas@npm:^29.6.0":
   version: 29.6.0
   resolution: "@jest/schemas@npm:29.6.0"
@@ -6162,17 +6155,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cross-spawn@npm:^7.0.6":
-  version: 7.0.6
-  resolution: "cross-spawn@npm:7.0.6"
-  dependencies:
-    path-key: ^3.1.0
-    shebang-command: ^2.0.0
-    which: ^2.0.1
-  checksum: 8d306efacaf6f3f60e0224c287664093fa9185680b2d195852ba9a863f85d02dcc737094c6e512175f8ee0161f9b87c73c6826034c2422e39de7d6569cf4503b
-  languageName: node
-  linkType: hard
-
 "crypto-random-string@npm:^1.0.0":
   version: 1.0.0
   resolution: "crypto-random-string@npm:1.0.0"
@@ -8263,16 +8245,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"foreground-child@npm:^3.3.1":
-  version: 3.3.1
-  resolution: "foreground-child@npm:3.3.1"
-  dependencies:
-    cross-spawn: ^7.0.6
-    signal-exit: ^4.0.1
-  checksum: b2c1a6fc0bf0233d645d9fefdfa999abf37db1b33e5dab172b3cbfb0662b88bfbd2c9e7ab853533d199050ec6b65c03fcf078fc212d26e4990220e98c6930eef
-  languageName: node
-  linkType: hard
-
 "forever-agent@npm:~0.6.1":
   version: 0.6.1
   resolution: "forever-agent@npm:0.6.1"
@@ -8843,19 +8815,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:~12.0.0":
-  version: 12.0.0
-  resolution: "glob@npm:12.0.0"
+"glob@npm:~13.0.0":
+  version: 13.0.0
+  resolution: "glob@npm:13.0.0"
   dependencies:
-    foreground-child: ^3.3.1
-    jackspeak: ^4.1.1
     minimatch: ^10.1.1
     minipass: ^7.1.2
-    package-json-from-dist: ^1.0.0
     path-scurry: ^2.0.0
-  bin:
-    glob: dist/esm/bin.mjs
-  checksum: e40a6d3f57c999f4157bf82330c369e9383ed09a7cd5c36528f496c7fd237131f9b9da6e81779e15e4b18a31f65b13dac62ff324f4fe8029521e1330f6e259dd
+  checksum: 963730222b0acc85a0d2616c08ba3a5d5b5f33fbf69182791967b8a02245db505577a6fc19836d5d58e1cbbfb414ad4f62f605a0372ab05cd9e6998efe944369
   languageName: node
   linkType: hard
 
@@ -10185,15 +10152,6 @@ __metadata:
     "@pkgjs/parseargs":
       optional: true
   checksum: 7b1468dd910afc00642db87448f24b062346570b8b47531409aa9012bcb95fdf7ec2b1c48edbb8b57a938c08391f8cc01b5034fc335aa3a2e74dbcc0ee5c555a
-  languageName: node
-  linkType: hard
-
-"jackspeak@npm:^4.1.1":
-  version: 4.2.3
-  resolution: "jackspeak@npm:4.2.3"
-  dependencies:
-    "@isaacs/cliui": ^9.0.0
-  checksum: 256c2a35b781b61a368b29cff30c901163f2726c768920d160a743429ea7ff4a02f254fa5a27ebbf6444c1a544ec45b0f46d5c6a44f6cc23b0bcd2b6b919ccb0
   languageName: node
   linkType: hard
 
@@ -13560,13 +13518,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"package-json-from-dist@npm:^1.0.0":
-  version: 1.0.1
-  resolution: "package-json-from-dist@npm:1.0.1"
-  checksum: 58ee9538f2f762988433da00e26acc788036914d57c71c246bf0be1b60cdbd77dd60b6a3e1a30465f0b248aeb80079e0b34cb6050b1dfa18c06953bb1cbc7602
-  languageName: node
-  linkType: hard
-
 "package-json@npm:^4.0.0":
   version: 4.0.1
   resolution: "package-json@npm:4.0.1"
@@ -15234,7 +15185,7 @@ __metadata:
     css-loader: ~5.0.1
     file-loader: ~5.0.2
     fs-extra: ^8.1.0
-    glob: ~12.0.0
+    glob: ~13.0.0
     jupyterlab-rise-application: ^0.43.1
     mini-css-extract-plugin: ~0.9.0
     npm-run-all: ^4.1.5
@@ -15600,9 +15551,9 @@ __metadata:
   linkType: hard
 
 "shell-quote@npm:^1.6.1":
-  version: 1.8.0
-  resolution: "shell-quote@npm:1.8.0"
-  checksum: 6ef7c5e308b9c77eedded882653a132214fa98b4a1512bb507588cf6cd2fc78bfee73e945d0c3211af028a1eabe09c6a19b96edd8977dc149810797e93809749
+  version: 1.8.4
+  resolution: "shell-quote@npm:1.8.4"
+  checksum: 082dc836baa8ade01144ee3068af487ea45ba570ea6ab13a5eddc11ab16a976b8857b51ef2caf7dc9a1e173ff0aea685b8f78b4f6f5a0a1ef24c7b17c51350e2
   languageName: node
   linkType: hard
 
@@ -18679,8 +18630,8 @@ __metadata:
   linkType: hard
 
 "ws@npm:^7.3.1, ws@npm:^7.4.6":
-  version: 7.5.10
-  resolution: "ws@npm:7.5.10"
+  version: 7.5.11
+  resolution: "ws@npm:7.5.11"
   peerDependencies:
     bufferutil: ^4.0.1
     utf-8-validate: ^5.0.2
@@ -18689,7 +18640,7 @@ __metadata:
       optional: true
     utf-8-validate:
       optional: true
-  checksum: f9bb062abf54cc8f02d94ca86dcd349c3945d63851f5d07a3a61c2fcb755b15a88e943a63cf580cbdb5b74436d67ef6b67f745b8f7c0814e411379138e1863cb
+  checksum: 3f32457a6019e6875cc0c2a037d4b4789da22a55b7be278e78845ec7614d28eaab9b36994cfdf9a18a48fe02f11c496168354b96b6ce202f65fe414cdf96f08c
   languageName: node
   linkType: hard
 
